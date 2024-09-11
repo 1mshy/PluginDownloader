@@ -1,0 +1,25 @@
+name: PluginDownloader
+version: '1.0-SNAPSHOT'
+main: me.imshy.pluginDownloader.PluginDownloader
+api-version: '1.21'
+commands:
+  download:
+    description: download other plugin by entering link
+    usage: /<command> <url>
+    permissions: download.anyone
+  clear:
+    description: clear your inventory
+    usage: /<command>
+    permissions: download.anyone
+  kit:
+    description: Your description
+    usage: /<command>
+
+
+permissions:
+  download.anyone:
+    description: Allows foo command
+    default: op
+  download.*:
+    description: Wildcard permission
+    default: op

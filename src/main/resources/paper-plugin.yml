@@ -1,4 +1,0 @@
-name: PluginDownloader
-version: '1.0-SNAPSHOT'
-main: me.imshy.pluginDownloader.PluginDownloader
-api-version: '1.21'
